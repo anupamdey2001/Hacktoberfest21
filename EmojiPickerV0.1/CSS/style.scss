@@ -32,6 +32,9 @@ nav{
 
 .hero-container{
     text-align:center;
+    .emoji{
+        font-size:2em;
+    }
 
     h2{
          background:#322f30;
@@ -47,7 +50,7 @@ nav{
         border-radius: 0.7em;
         border: 2px solid rgb(36, 132, 241);
         cursor:pointer;
-        font-size:0.9em;
+        font-size:1.3em;
 
         &:hover{
             font-weight:bold;
@@ -92,9 +95,17 @@ nav{
         &:hover{
             background-color: rgb(36, 132, 241);
         }
-       
     }
   }
+  h3{
+    margin:0;
+    text-align:center;
+    font-size:0.9em;
+    span{
+        font-size:2em;
+        color:rgb(36, 132, 241);
+    }    
+}
 }
 iframe{
     height:100vh;
@@ -120,13 +131,27 @@ iframe{
     }
     .footer{
         .mail{
-            padding: 1.7em 0; 
+            padding: 0.7em 0; 
             font-size:1em;
+            span{
+                font-size:1.5em;
+                color:rgb(36, 132, 241)
+            }
         }
        
 
         .social-links{
             font-size:1.1em;
+        }
+        h3{
+            margin:0;
+            text-align:center;
+            font-size:1em;
+            padding:1em 0;
+            span{
+                font-size:2.2em;
+                color:yellow;
+            }    
         }
     }
     
