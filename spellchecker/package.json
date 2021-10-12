@@ -1,0 +1,15 @@
+{
+  "name": "repos-spellchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Matheus Gois <matheusgoislimasilva@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "spellchecker": "^3.7.1"
+  }
+}
