@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-IplDashboardApplication<ipl-dashboard>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.javaproject.ipldashboard.IplDashboardApplication",
+            "projectName": "ipl-dashboard",
+            "args": ""
+        }
+    ]
+}
