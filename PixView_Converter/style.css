@@ -1,0 +1,54 @@
+.main{
+    text-align: center;
+    margin:auto;
+    margin-top: 8%;
+    width: 79.57vh;
+    background-color: rgb(247, 245, 245);
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(233, 229, 229, 0.945);
+}
+.one,.two,.three,.four{
+    padding: 20px;
+}
+.result{
+    padding: 20px;
+    color: rgb(131, 10, 245);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin: auto;
+}
+
+.pixelToVH,.pixelToVW,.vwToPixel,.vhToPixel {
+    width: 160px;
+    height: 35px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    background: rgb(236, 251, 252);
+}
+h2{
+    color: blueviolet;
+    margin-top: 0%;
+	background-color:rgb(215, 201, 221);
+}
+input {
+    color:black;
+    font-size: 18px;
+}
+ 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    color: black;
+}
+@media screen and (min-width: 500px) {
+    nav h1 {
+      font-size: 1.5rem;
+    }
+  }
