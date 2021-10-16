@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixel conversion</title>
+</head>
+
+<body>
+ <div class="main">
+    <nav>
+      <h1>
+        <h2>PixView <span style="color: red; font-family: Arial, Helvetica, sans-serif;"> Converter</span></h2>
+      </h1>
+    </nav>
+
+  
+    <div class="one">
+      <span class="text"> PX to VH</span>
+      <input class="pixelToVH" type="number" oninput="pixelToVH(this.value);">
+      <br>
+      <span class="result" id="pixelToVH">Result</span>
+    </div>
+    
+    <div class="two">
+      <span class="text"> PX to VW</span>
+      <input class="pixelToVW" type="number" oninput="pixelToVW(this.value);">
+      <br>
+      <span class="result" id="pixelToVW">Result</span>
+    </div>
+   
+    <div class="three">
+      <span class="text">VH to PX</span>
+      
+      <input class="vhToPixel" type="number" oninput="vhToPixel(this.value);">
+      <br>
+      <span class="result" id="vhToPixel">Result</span>
+    </div>
+   
+    <div class="four">
+      <span class="text"> VW to PX</span>
+      
+      <input class="vwToPixel" type="number" oninput="vwToPixel(this.value);">
+      <br>
+      <span class="result" id="vwToPixel">Result</span>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
